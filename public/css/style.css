@@ -1,0 +1,109 @@
+body {
+    background: #1d2d3d !important;
+  }
+
+  .tweet-box {
+    background: #15202b;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 3px;
+    padding: 30px;
+    border-bottom: 1px solid #15202b;
+    border-top: 1px solid #15202b;
+    color: #fff;
+    animation: mymove 5s infinite;
+  }
+
+  .wrap {
+    margin-top: 20px;
+    padding: 0 60px;
+  }
+
+  .tweet-header {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+
+  .tweet-user-image {
+    border-radius: 100px;
+    width: 48px;
+    margin-right: 15px;
+  }
+
+  .tweet-user-name {
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .grey {
+    color: #83888D;
+  }
+
+  .tweet-body-image img {
+    max-width: 100%;
+  }
+
+  .tweet-body-text {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: animate;
+    animation-timing-function: linear;
+    background: #15202b;
+    background: linear-gradient(to right, #1d2d3d 8%, #15202b 38%, #1d2d3d 54%);
+    background-size: 1000px 640px;
+    height: 12px;
+    max-width: 470px;
+    position: relative;
+    border-radius: 1px;
+    margin: 5px 0;
+  }
+
+
+  .tweet-body-image div {
+    height: 280px;
+    max-width: 470px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: animate;
+    animation-timing-function: linear;
+    background: #15202b;
+    background: linear-gradient(to right, #1d2d3d 8%, #15202b 38%, #1d2d3d 54%);
+    background-size: 1000px 640px;
+    position: relative;
+    border-radius: 2px;
+  }
+
+  .tweet-reaction div {
+     display: inline-block;
+  }
+
+  .tweet-reaction svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+
+  .tweet-reaction .count {
+    color: white;
+    display: inline;
+    padding-left: 3px;
+  }
+
+  .mover {
+    margin-left: 15%;
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -468px 0;
+    }
+    100% {
+      background-position: 468px 0;
+    }
+  }
